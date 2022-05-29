@@ -35,7 +35,7 @@ const App = () => {
         )}
 
         <Switch>
-          <Route exact path="/CpuScheduling" index component={Home} />
+          <Route exact path="/CpuScheduling-Simulation" index component={Home} />
           <Route exact path="/Home" index component={Home} />
           <Route exact path="/about" component={AboutLa} />
           <Route exact path="/fcfs" component={FCFS} />

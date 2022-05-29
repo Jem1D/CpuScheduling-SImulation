@@ -1,5 +1,5 @@
 {
-  "homepage": "https://JeminButani.github.io/CpuScheduling",
+  "homepage": "https://Jem1D.github.io/CpuScheduling-Simulation",
   "name": "project-os",
   "version": "0.1.0",
   "private": true,
@@ -31,7 +31,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -62,12 +62,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JeminButani/CpuScheduling.git"
+    "url": "git+https://github.com/Jem1D/CpuScheduling-Simulation.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JeminButani/CpuScheduling/issues"
+    "url": "https://github.com/Jem1D/CpuScheduling-Simulation/issues"
   }
 }
